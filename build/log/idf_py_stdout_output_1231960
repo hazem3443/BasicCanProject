@@ -1,0 +1,35 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/sdkconfig
+-- App "ShiftEV_CanTask" version: 1.0.1b
+-- Adding linker script /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/hazem/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/hazem/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/hazem/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/hazem/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/hazem/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/hazem/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/hazem/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/hazem/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/hazem/esp/esp-idf/components/app_trace /home/hazem/esp/esp-idf/components/app_update /home/hazem/esp/esp-idf/components/bootloader /home/hazem/esp/esp-idf/components/bootloader_support /home/hazem/esp/esp-idf/components/bt /home/hazem/esp/esp-idf/components/cmock /home/hazem/esp/esp-idf/components/console /home/hazem/esp/esp-idf/components/cxx /home/hazem/esp/esp-idf/components/driver /home/hazem/esp/esp-idf/components/efuse /home/hazem/esp/esp-idf/components/esp-tls /home/hazem/esp/esp-idf/components/esp_adc /home/hazem/esp/esp-idf/components/esp_app_format /home/hazem/esp/esp-idf/components/esp_coex /home/hazem/esp/esp-idf/components/esp_common /home/hazem/esp/esp-idf/components/esp_eth /home/hazem/esp/esp-idf/components/esp_event /home/hazem/esp/esp-idf/components/esp_gdbstub /home/hazem/esp/esp-idf/components/esp_hid /home/hazem/esp/esp-idf/components/esp_http_client /home/hazem/esp/esp-idf/components/esp_http_server /home/hazem/esp/esp-idf/components/esp_https_ota /home/hazem/esp/esp-idf/components/esp_https_server /home/hazem/esp/esp-idf/components/esp_hw_support /home/hazem/esp/esp-idf/components/esp_lcd /home/hazem/esp/esp-idf/components/esp_local_ctrl /home/hazem/esp/esp-idf/components/esp_mm /home/hazem/esp/esp-idf/components/esp_netif /home/hazem/esp/esp-idf/components/esp_netif_stack /home/hazem/esp/esp-idf/components/esp_partition /home/hazem/esp/esp-idf/components/esp_phy /home/hazem/esp/esp-idf/components/esp_pm /home/hazem/esp/esp-idf/components/esp_psram /home/hazem/esp/esp-idf/components/esp_ringbuf /home/hazem/esp/esp-idf/components/esp_rom /home/hazem/esp/esp-idf/components/esp_system /home/hazem/esp/esp-idf/components/esp_timer /home/hazem/esp/esp-idf/components/esp_wifi /home/hazem/esp/esp-idf/components/espcoredump /home/hazem/esp/esp-idf/components/esptool_py /home/hazem/esp/esp-idf/components/fatfs /home/hazem/esp/esp-idf/components/freertos /home/hazem/esp/esp-idf/components/hal /home/hazem/esp/esp-idf/components/heap /home/hazem/esp/esp-idf/components/http_parser /home/hazem/esp/esp-idf/components/idf_test /home/hazem/esp/esp-idf/components/ieee802154 /home/hazem/esp/esp-idf/components/json /home/hazem/esp/esp-idf/components/log /home/hazem/esp/esp-idf/components/lwip /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/main /home/hazem/esp/esp-idf/components/mbedtls /home/hazem/esp/esp-idf/components/mqtt /home/hazem/esp/esp-idf/components/newlib /home/hazem/esp/esp-idf/components/nvs_flash /home/hazem/esp/esp-idf/components/openthread /home/hazem/esp/esp-idf/components/partition_table /home/hazem/esp/esp-idf/components/perfmon /home/hazem/esp/esp-idf/components/protobuf-c /home/hazem/esp/esp-idf/components/protocomm /home/hazem/esp/esp-idf/components/pthread /home/hazem/esp/esp-idf/components/sdmmc /home/hazem/esp/esp-idf/components/soc /home/hazem/esp/esp-idf/components/spi_flash /home/hazem/esp/esp-idf/components/spiffs /home/hazem/esp/esp-idf/components/tcp_transport /home/hazem/esp/esp-idf/components/ulp /home/hazem/esp/esp-idf/components/unity /home/hazem/esp/esp-idf/components/usb /home/hazem/esp/esp-idf/components/vfs /home/hazem/esp/esp-idf/components/wear_levelling /home/hazem/esp/esp-idf/components/wifi_provisioning /home/hazem/esp/esp-idf/components/wpa_supplicant /home/hazem/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build
+[1/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ShiftEV_CanTask.c.obj
+[2/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/can_drv/can_drv.c.obj
+[3/11] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/tim_drv/tim_drv.c.obj
+[4/11] Linking C static library esp-idf/main/libmain.a
+[5/11] Performing build step for 'bootloader'
+[1/1] cd /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/bootloader/esp-idf/esptool_py && /home/hazem/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/hazem/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/bootloader/bootloader.bin
+Bootloader binary size 0x6790 bytes. 0x870 bytes (8%) free.
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable ShiftEV_CanTask.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/ShiftEV_CanTask.bin
+[9/9] cd /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/esp-idf/esptool_py && /home/hazem/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/hazem/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/partition_table/partition-table.bin /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/ShiftEV_CanTask.bin
+ShiftEV_CanTask.bin binary size 0x2df00 bytes. Smallest app partition is 0x100000 bytes. 0xd2100 bytes (82%) free.

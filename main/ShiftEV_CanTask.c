@@ -1,26 +1,64 @@
-#include <stdio.h>
-#include "driver/gpio.h"
+#include <inttypes.h>
+#include <string.h>
+
+#include "esp_err.h"
+#include "esp_log.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-void app_main(void)
-{
-    gpio_set_direction(GPIO_NUM_21, GPIO_MODE_INPUT);
-    gpio_set_pull_mode(GPIO_NUM_21, GPIO_PULLUP_ONLY);
+#include "can_drv/can_drv.h"
+#include "tim_drv/tim_drv.h"
 
-    gpio_set_direction(GPIO_NUM_5, GPIO_MODE_OUTPUT);
+#define CAN_IDENTIFIER 0x5
+#define DATA_LENGTH 8
+#define DELAY_500_MS (500 / portTICK_PERIOD_MS)
 
-    for(;;){
-        if(gpio_get_level(GPIO_NUM_21)){
-            gpio_set_level(GPIO_NUM_5,0);
-            printf("Turn OFF!\n");
+static const char *TAG = "CAN_APP";
+
+void app_main(void) {
+    // Initialize the TWAI driver
+    esp_err_t err = can_drv_init();
+    if (err != ESP_OK) {
+        ESP_LOGE(TAG, "Failed to initialize CAN driver: %d", err);
+        return;
+    }
+    // Register a semaphore for RX notifications
+    SemaphoreHandle_t rx_notification;
+    can_drv_register_rx_notification(&rx_notification);
+
+    // Set up the message to send
+    CANMessage txMessage = {
+        .canId = CAN_IDENTIFIER,
+        .canData = {0xBE, 0xEF, 0xAB, 0xAB, 0x00, 0x00, 0x00, 0x00},
+        .dataSize = DATA_LENGTH
+    };
+
+    while (true) {
+        // Check for received messages
+        if (xSemaphoreTake(rx_notification, pdMS_TO_TICKS(100)) == pdTRUE) {
+            CANMessage rxMessage;
+
+            bool success = CAN_rx(&(rxMessage.canId), rxMessage.canData, &(rxMessage.dataSize));
+            if (success) {
+                // Process the received message
+                ESP_LOGI(TAG, "Received message with ID: 0x%" PRIx32, rxMessage.canId);
+            } else {
+                ESP_LOGE(TAG, "Failed to read received message");
+            }
         }
-        else{
-            gpio_set_level(GPIO_NUM_5,1);
-            printf("Turn ON!\n");
-        }
 
-        vTaskDelay(10);
+        // Send messages periodically or upon certain events
+        CAN_tx(txMessage.canId, txMessage.canData, txMessage.dataSize);
+        ESP_LOGI(TAG, "Message sent successfully");
+
+        //we can use this new module from any where in our project
+        uint32_t timestamp = TIM_getTimestamp();
+        ESP_LOGI(TAG, "Current timestamp (10us units): %" SCNu32, timestamp);
+
+        // Wait for 500 ms
+        vTaskDelay(DELAY_500_MS);
     }
 
+    // Deinitialize the TWAI driver
+    can_drv_deinit();
 }
