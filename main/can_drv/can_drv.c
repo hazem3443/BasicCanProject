@@ -138,16 +138,6 @@ bool CAN_rx(uint32_t *canId, uint8_t *canData, uint8_t *dataSize) {
     bool success;
 
     err = twai_receive(&rx_msg, pdMS_TO_TICKS(0));
-    ESP_LOGW(TAG, "rx_msg: ID=0x%x", rx_msg.data_length_code);
-    ESP_LOGW(TAG, "rx_msg: DLC=0x%x", rx_msg.data_length_code);
-    ESP_LOGW(TAG, "rx_msg: data[0]=0x%x", rx_msg.data[0]);
-    ESP_LOGW(TAG, "rx_msg: data[0]=0x%x", rx_msg.data[1]);
-    ESP_LOGW(TAG, "rx_msg: data[0]=0x%x", rx_msg.data[2]);
-    ESP_LOGW(TAG, "rx_msg: data[0]=0x%x", rx_msg.data[3]);
-    ESP_LOGW(TAG, "rx_msg: data[0]=0x%x", rx_msg.data[4]);
-    ESP_LOGW(TAG, "rx_msg: data[0]=0x%x", rx_msg.data[5]);
-    ESP_LOGW(TAG, "rx_msg: data[0]=0x%x", rx_msg.data[6]);
-    ESP_LOGW(TAG, "rx_msg: data[0]=0x%x", rx_msg.data[7]);
     
     if (err == ESP_OK) {
         success = queue_send_to_back(rx_queue, &rx_msg);//enqueue

@@ -40,9 +40,6 @@ void can_transmit_timer_callback(void *arg);
 void init_can_transmit_timer(void);
 
 esp_err_t can_drv_register_rx_isr(void (*rx_isr)(void));
-// esp_err_t can_drv_register_rx_isr(void (*rx_isr)(void));
-// void IRAM_ATTR can_receive_isr(void *arg);
-// vvoid install_can_receive_isr(void);
 
 #endif
 

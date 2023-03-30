@@ -89,23 +89,23 @@ void app_main(void) {
 
         switch (currentState)
         {
-        case TransmitState:
-            CAN_tx(txMessage.canId, txMessage.canData, txMessage.dataSize);
-            ESP_LOGI(TAG, "Message sent successfully");
-            msDelay = 1000 * num_of_cycle_per_ms;
-            currentState = WaitState;
-            break;
-        case WaitState:
-            if(msDelay-- == 0){
-                currentState = TransmitState;
-            }
-            else{
-                /*do nothing*/
-            }
-            break;
-        default:
-            ESP_LOGI(TAG, "error Occured");
-            break;
+            case TransmitState:
+                CAN_tx(txMessage.canId, txMessage.canData, txMessage.dataSize);
+                ESP_LOGI(TAG, "Message sent successfully");
+                msDelay = 1000 * num_of_cycle_per_ms;
+                currentState = WaitState;
+                break;
+            case WaitState:
+                if(msDelay-- == 0){
+                    currentState = TransmitState;
+                }
+                else{
+                    /*do nothing*/
+                }
+                break;
+            default:
+                ESP_LOGI(TAG, "error Occured");
+                break;
         }
 
     }
