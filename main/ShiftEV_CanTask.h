@@ -1,7 +1,6 @@
 #ifndef SHIFTEV_CANTASK_H
 #define SHIFTEV_CANTASK_H
 
-#define USE_RTOS_EXAMPLE
 #include <inttypes.h>
 #include <string.h>
 

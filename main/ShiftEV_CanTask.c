@@ -15,40 +15,6 @@ void app_main(void) {
         return;
     }
 
-    #ifdef USE_RTOS_EXAMPLE
-    // Initialize the TWAI driver
-    // Register a semaphore for RX notifications
-    SemaphoreHandle_t rx_notification;
-    can_drv_register_rx_notification(&rx_notification);
-
-    while (true) {
-        // Check for received messages
-        if (xSemaphoreTake(rx_notification, pdMS_TO_TICKS(100)) == pdTRUE) {
-
-            bool success = CAN_rx(&(rxMessage.canId), rxMessage.canData, &(rxMessage.dataSize));
-            if (success) {
-                // Process the received message
-                ESP_LOGI(TAG, "Received message with ID: 0x%" PRIx32, rxMessage.canId);
-            } else {
-                ESP_LOGE(TAG, "Failed to read received message");
-            }
-        }
-
-        // Send messages periodically or upon certain events
-        CAN_tx(txMessage.canId, txMessage.canData, txMessage.dataSize);
-        ESP_LOGI(TAG, "Message sent successfully");
-
-        //we can use this new module from any where in our project
-        uint32_t timestamp = TIM_getTimestamp();
-        ESP_LOGI(TAG, "Current timestamp (10us units): %" SCNu32, timestamp);
-
-        // Wait for 500 ms
-        vTaskDelay(DELAY_500_MS);
-    }
-
-    // Deinitialize the TWAI driver
-    can_drv_deinit();
-    #else
     //register transmit function to send messages periodically from the queue
     init_can_transmit_timer();
 
@@ -93,7 +59,6 @@ void app_main(void) {
     }
     //deinitialize the CAN
     can_drv_deinit();
-    #endif
 }
 
 void RXCAN_Hook(void)
