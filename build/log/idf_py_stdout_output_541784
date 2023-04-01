@@ -1,0 +1,642 @@
+[1/420] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/hazem/esp/esp-idf/components/mbedtls/port/sha/esp_sha.c.obj
+[2/420] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/hazem/esp/esp-idf/components/mbedtls/port/esp_bignum.c.obj
+[3/420] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/hazem/esp/esp-idf/components/mbedtls/port/aes/block/esp_aes.c.obj
+[4/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj
+[5/420] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/home/hazem/esp/esp-idf/components/mbedtls/port/aes/esp_aes_gcm.c.obj
+[6/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[7/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[8/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[9/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[10/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[11/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[12/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[13/420] Building C object esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/home/hazem/esp/esp-idf/components/mbedtls/port/mbedtls_debug.c.obj
+[14/420] Building C object esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition_target.c.obj
+[15/420] Building C object esp-idf/esp_partition/CMakeFiles/__idf_esp_partition.dir/partition.c.obj
+[16/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[17/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[18/420] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_cache.c.obj
+[19/420] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[20/420] Building C object esp-idf/esp_mm/CMakeFiles/__idf_esp_mm.dir/esp_mmu_map.c.obj
+[21/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/memspi_host_driver.c.obj
+[22/420] Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.obj
+[23/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_gd.c.obj
+[24/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic.c.obj
+[25/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_generic.c.obj
+[26/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_winbond.c.obj
+[27/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_chip_mxic_opi.c.obj
+[28/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
+[29/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/cache_utils.c.obj
+[30/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_ops.c.obj
+[31/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/flash_mmap.c.obj
+[32/420] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread.c.obj
+[33/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_os_func_app.c.obj
+[34/420] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj
+[35/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_spi_init.c.obj
+[36/420] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/esp_flash_api.c.obj
+[37/420] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj
+[38/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/int_wdt.c.obj
+[39/420] Building C object esp-idf/pthread/CMakeFiles/__idf_pthread.dir/pthread_rwlock.c.obj
+[40/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/xt_wdt.c.obj
+[41/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/task_wdt/task_wdt.c.obj
+[42/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/debug_stubs.c.obj
+[43/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/clk.c.obj
+[44/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/cpu_start.c.obj
+[45/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/soc/esp32/system_internal.c.obj
+[46/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/debug_stubs.c.obj
+[47/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/trax.c.obj
+[48/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/port/arch/xtensa/expression_with_stack.c.obj
+[49/420] Building C object esp-idf/esp_system/CMakeFiles/__idf_esp_system.dir/startup.c.obj
+[50/420] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_netif_glue.c.obj
+[51/420] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_dp83848.c.obj
+[52/420] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_phy_802_3.c.obj
+[53/420] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth.c.obj
+[54/420] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/adc_oneshot_hal.c.obj
+[55/420] Building C object esp-idf/esp_eth/CMakeFiles/__idf_esp_eth.dir/src/esp_eth_mac_esp.c.obj
+[56/420] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/clk_tree_hal.c.obj
+[57/420] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_flash_hal.c.obj
+[58/420] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj
+[59/420] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
+[60/420] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/spi_hal.c.obj
+[61/420] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_freertos.c.obj
+[62/420] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/port/memory_layout_utils.c.obj
+[63/420] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps.c.obj
+[64/420] Building C object esp-idf/heap/CMakeFiles/__idf_heap.dir/heap_caps_init.c.obj
+[65/420] Performing build step for 'bootloader'
+[1/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_random_esp32.c.obj
+[2/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_encrypt.c.obj
+[3/39] Building C object esp-idf/spi_flash/CMakeFiles/__idf_spi_flash.dir/spi_flash_wrap.c.obj
+[4/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/secure_boot.c.obj
+[5/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/flash_qio_mode.c.obj
+[6/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common.c.obj
+[7/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_common_loader.c.obj
+[8/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/flash_partitions.c.obj
+[9/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash.c.obj
+[10/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/bootloader_flash/src/bootloader_flash_config_esp32.c.obj
+[11/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_init.c.obj
+[12/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_panic.c.obj
+[13/39] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_table.c.obj
+[14/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp32/bootloader_esp32.c.obj
+[15/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/esp_image_format.c.obj
+[16/39] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_fields.c.obj
+[17/39] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_utility.c.obj
+[18/39] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/esp32/esp_efuse_utility.c.obj
+[19/39] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c.obj
+[20/39] Building C object esp-idf/bootloader_support/CMakeFiles/__idf_bootloader_support.dir/src/bootloader_utility.c.obj
+[21/39] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_fields.c.obj
+[22/39] Building C object esp-idf/efuse/CMakeFiles/__idf_efuse.dir/src/esp_efuse_api.c.obj
+[23/39] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[24/39] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj
+[25/39] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log.c.obj
+[26/39] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/bootloader_start.c.obj
+[27/39] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj
+[28/39] Building C object esp-idf/log/CMakeFiles/__idf_log.dir/log_buffers.c.obj
+[29/39] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[30/39] Linking C static library esp-idf/log/liblog.a
+[31/39] Linking C static library esp-idf/esp_common/libesp_common.a
+[32/39] Linking C static library esp-idf/esp_hw_support/libesp_hw_support.a
+[33/39] Linking C static library esp-idf/efuse/libefuse.a
+[34/39] Linking C static library esp-idf/bootloader_support/libbootloader_support.a
+[35/39] Linking C static library esp-idf/spi_flash/libspi_flash.a
+[36/39] Linking C static library esp-idf/main/libmain.a
+[37/39] Linking C executable bootloader.elf
+[38/39] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Generated /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/bootloader/bootloader.bin
+[39/39] cd /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/bootloader/esp-idf/esptool_py && /home/hazem/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/hazem/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/bootloader/bootloader.bin
+Bootloader binary size 0x6790 bytes. 0x870 bytes (8%) free.
+[66/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/clk_ctrl_os.c.obj
+[67/418] Building C object esp-idf/hal/CMakeFiles/__idf_hal.dir/sdio_slave_hal.c.obj
+[68/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/regi2c_ctrl.c.obj
+[69/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/mac_addr.c.obj
+[70/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modem.c.obj
+[71/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/rtc_module.c.obj
+[72/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/clk_tree.c.obj
+[73/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/intr_alloc.c.obj
+[74/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/adc_share_hw_ctrl.c.obj
+[75/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/clk_tree_common.c.obj
+[76/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk_init.c.obj
+[77/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_gpio.c.obj
+[78/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_time.c.obj
+[79/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/sar_periph_ctrl.c.obj
+[80/418] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/app_startup.c.obj
+[81/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/port/esp32/rtc_clk.c.obj
+[82/418] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/pthread.c.obj
+[83/418] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/port_systick.c.obj
+[84/418] Building C object esp-idf/newlib/CMakeFiles/__idf_newlib.dir/random.c.obj
+[85/418] Building C object esp-idf/freertos/CMakeFiles/__idf_freertos.dir/FreeRTOS-Kernel/portable/xtensa/port.c.obj
+[86/418] Building C object esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/sleep_modes.c.obj
+[87/418] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/system_time.c.obj
+[88/418] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/ets_timer_legacy.c.obj
+[89/418] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer.c.obj
+[90/418] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event_private.c.obj
+[91/418] Building C object esp-idf/esp_timer/CMakeFiles/__idf_esp_timer.dir/src/esp_timer_impl_lac.c.obj
+[92/418] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/lib_printf.c.obj
+[93/418] Building C object esp-idf/esp_event/CMakeFiles/__idf_esp_event.dir/esp_event.c.obj
+[94/418] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_eventfd.c.obj
+[95/418] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs_semihost.c.obj
+[96/418] Building C object esp-idf/vfs/CMakeFiles/__idf_vfs.dir/vfs.c.obj
+[97/418] Building C object esp-idf/esp_phy/CMakeFiles/__idf_esp_phy.dir/src/phy_init.c.obj
+[98/418] Building C object esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir/src/esp_err_to_name.c.obj
+[99/418] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/sntp/sntp.c.obj
+[100/418] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/debug/lwip_debug.c.obj
+[101/418] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/port/freertos/sys_arch.c.obj
+[102/418] Building C object esp-idf/lwip/CMakeFiles/__idf_lwip.dir/apps/ping/ping_sock.c.obj
+[103/418] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_handlers.c.obj
+[104/418] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/esp_netif_objects.c.obj
+[105/418] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_sntp.c.obj
+[106/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/os_xtensa.c.obj
+[107/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_1x.c.obj
+[108/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/pmksa_cache_auth.c.obj
+[109/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/port/eloop.c.obj
+[110/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ap_config.c.obj
+[111/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/dragonfly.c.obj
+[112/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/sta_info.c.obj
+[113/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj
+[114/418] Building C object esp-idf/esp_netif/CMakeFiles/__idf_esp_netif.dir/lwip/esp_netif_lwip.c.obj
+[115/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/comeback_token.c.obj
+[116/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/ieee802_11.c.obj
+[117/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-gcm.c.obj
+[118/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/ap/wpa_auth.c.obj
+[119/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/bitfield.c.obj
+[120/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/aes-siv.c.obj
+[121/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/wpa_common.c.obj
+[122/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-kdf.c.obj
+[123/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ccmp.c.obj
+[124/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae.c.obj
+[125/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/crypto_ops.c.obj
+[126/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_groups.c.obj
+[127/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/dh_group5.c.obj
+[128/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tlsprf.c.obj
+[129/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/ms_funcs.c.obj
+[130/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-tlsprf.c.obj
+[131/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-tlsprf.c.obj
+[132/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls_common.c.obj
+[133/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-prf.c.obj
+[134/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha256-prf.c.obj
+[135/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha384-prf.c.obj
+[136/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/sha1-tprf.c.obj
+[137/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/chap.c.obj
+[138/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/crypto/md4-internal.c.obj
+[139/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_common/eap_wsc_common.c.obj
+[140/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/ieee802_11_common.c.obj
+[141/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_common.c.obj
+[142/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap.c.obj
+[143/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap_common.c.obj
+[144/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_tls.c.obj
+[145/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_mschapv2.c.obj
+[146/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa_ie.c.obj
+[147/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_peap.c.obj
+[148/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/mschapv2.c.obj
+[149/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_common.c.obj
+[150/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/pmksa_cache.c.obj
+[151/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_ttls.c.obj
+[152/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast_pac.c.obj
+[153/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/common.c.obj
+[154/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/ext_password.c.obj
+[155/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/eap_peer/eap_fast.c.obj
+[156/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpa_debug.c.obj
+[157/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/uuid.c.obj
+[158/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/wpabuf.c.obj
+[159/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/rsn_supp/wpa.c.obj
+[160/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_dev_attr.c.obj
+[161/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps.c.obj
+[162/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/utils/json.c.obj
+[163/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_process.c.obj
+[164/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_parse.c.obj
+[165/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_attr_build.c.obj
+[166/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_common.c.obj
+[167/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/wps/wps_enrollee.c.obj
+[168/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/scan.c.obj
+[169/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c.obj
+[170/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/sae_pk.c.obj
+[171/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/src/common/bss.c.obj
+[172/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_scan.c.obj
+[173/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpas_glue.c.obj
+[174/418] Building CXX object esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj
+FAILED: esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj 
+/home/hazem/.espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ -DESP_PLATFORM -DIDF_VER=\"v5.1-dev-4264-g81e1e65995\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -I/home/hazem/Desktop/ESP_WROOM/ShiftEVTask/build/config -I/home/hazem/esp/esp-idf/components/nvs_flash/include -I/home/hazem/esp/esp-idf/components/spi_flash/include -I/home/hazem/esp/esp-idf/components/nvs_flash/private_include -I/home/hazem/esp/esp-idf/components/newlib/platform_include -I/home/hazem/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/hazem/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/hazem/esp/esp-idf/components/freertos/esp_additions/include/freertos -I/home/hazem/esp/esp-idf/components/freertos/esp_additions/include -I/home/hazem/esp/esp-idf/components/freertos/esp_additions/arch/xtensa/include -I/home/hazem/esp/esp-idf/components/esp_hw_support/include -I/home/hazem/esp/esp-idf/components/esp_hw_support/include/soc -I/home/hazem/esp/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/hazem/esp/esp-idf/components/esp_hw_support/port/esp32/. -I/home/hazem/esp/esp-idf/components/esp_hw_support/port/esp32/private_include -I/home/hazem/esp/esp-idf/components/heap/include -I/home/hazem/esp/esp-idf/components/log/include -I/home/hazem/esp/esp-idf/components/soc/include -I/home/hazem/esp/esp-idf/components/soc/esp32 -I/home/hazem/esp/esp-idf/components/soc/esp32/include -I/home/hazem/esp/esp-idf/components/hal/esp32/include -I/home/hazem/esp/esp-idf/components/hal/include -I/home/hazem/esp/esp-idf/components/hal/platform_port/include -I/home/hazem/esp/esp-idf/components/esp_rom/include -I/home/hazem/esp/esp-idf/components/esp_rom/include/esp32 -I/home/hazem/esp/esp-idf/components/esp_rom/esp32 -I/home/hazem/esp/esp-idf/components/esp_common/include -I/home/hazem/esp/esp-idf/components/esp_system/include -I/home/hazem/esp/esp-idf/components/esp_system/port/soc -I/home/hazem/esp/esp-idf/components/esp_system/port/include/private -I/home/hazem/esp/esp-idf/components/xtensa/include -I/home/hazem/esp/esp-idf/components/xtensa/esp32/include -I/home/hazem/esp/esp-idf/components/lwip/include -I/home/hazem/esp/esp-idf/components/lwip/include/apps -I/home/hazem/esp/esp-idf/components/lwip/include/apps/sntp -I/home/hazem/esp/esp-idf/components/lwip/lwip/src/include -I/home/hazem/esp/esp-idf/components/lwip/port/include -I/home/hazem/esp/esp-idf/components/lwip/port/freertos/include -I/home/hazem/esp/esp-idf/components/lwip/port/esp32xx/include -I/home/hazem/esp/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/hazem/esp/esp-idf/components/esp_partition/include -mlongcalls -Wno-frame-address  -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fmacro-prefix-map=/home/hazem/Desktop/ESP_WROOM/ShiftEVTask=. -fmacro-prefix-map=/home/hazem/esp/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -DconfigENABLE_FREERTOS_DEBUG_OCDAWARE=1 -std=gnu++20 -fno-exceptions -fno-rtti -Wno-format -MD -MT esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj -MF esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj.d -o esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir/src/nvs_api.cpp.obj -c /home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp
+In file included from /home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:23:
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'esp_err_t nvs_open_from_partition(const char*, const char*, nvs_open_mode_t, nvs_handle_t*)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:276:5: note: in expansion of macro 'ESP_LOGD'
+  276 |     ESP_LOGD(TAG, "%s %s %d", __func__, namespace_name, open_mode);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:276:5: note: in expansion of macro 'ESP_LOGD'
+  276 |     ESP_LOGD(TAG, "%s %s %d", __func__, namespace_name, open_mode);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:276:5: note: in expansion of macro 'ESP_LOGD'
+  276 |     ESP_LOGD(TAG, "%s %s %d", __func__, namespace_name, open_mode);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'void nvs_close(nvs_handle_t)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [28]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:302:5: note: in expansion of macro 'ESP_LOGD'
+  302 |     ESP_LOGD(TAG, "%s %d", __func__, static_cast<int>(handle));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [28]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:302:5: note: in expansion of macro 'ESP_LOGD'
+  302 |     ESP_LOGD(TAG, "%s %d", __func__, static_cast<int>(handle));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [28]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:302:5: note: in expansion of macro 'ESP_LOGD'
+  302 |     ESP_LOGD(TAG, "%s %d", __func__, static_cast<int>(handle));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'esp_err_t nvs_erase_key(nvs_handle_t, const char*)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [30]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:316:5: note: in expansion of macro 'ESP_LOGD'
+  316 |     ESP_LOGD(TAG, "%s %s\r\n", __func__, key);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [30]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:316:5: note: in expansion of macro 'ESP_LOGD'
+  316 |     ESP_LOGD(TAG, "%s %s\r\n", __func__, key);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [30]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:316:5: note: in expansion of macro 'ESP_LOGD'
+  316 |     ESP_LOGD(TAG, "%s %s\r\n", __func__, key);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'esp_err_t nvs_erase_all(nvs_handle_t)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [27]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:329:5: note: in expansion of macro 'ESP_LOGD'
+  329 |     ESP_LOGD(TAG, "%s\r\n", __func__);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [27]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:329:5: note: in expansion of macro 'ESP_LOGD'
+  329 |     ESP_LOGD(TAG, "%s\r\n", __func__);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [27]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:329:5: note: in expansion of macro 'ESP_LOGD'
+  329 |     ESP_LOGD(TAG, "%s\r\n", __func__);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'esp_err_t nvs_set(nvs_handle_t, const char*, T)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [35]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:343:5: note: in expansion of macro 'ESP_LOGD'
+  343 |     ESP_LOGD(TAG, "%s %s %d %ld", __func__, key, static_cast<int>(sizeof(T)), static_cast<long int>(value));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [35]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:343:5: note: in expansion of macro 'ESP_LOGD'
+  343 |     ESP_LOGD(TAG, "%s %s %d %ld", __func__, key, static_cast<int>(sizeof(T)), static_cast<long int>(value));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [35]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:343:5: note: in expansion of macro 'ESP_LOGD'
+  343 |     ESP_LOGD(TAG, "%s %s %d %ld", __func__, key, static_cast<int>(sizeof(T)), static_cast<long int>(value));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'esp_err_t nvs_set_str(nvs_handle_t, const char*, const char*)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:408:5: note: in expansion of macro 'ESP_LOGD'
+  408 |     ESP_LOGD(TAG, "%s %s %s", __func__, key, value);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:408:5: note: in expansion of macro 'ESP_LOGD'
+  408 |     ESP_LOGD(TAG, "%s %s %s", __func__, key, value);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:408:5: note: in expansion of macro 'ESP_LOGD'
+  408 |     ESP_LOGD(TAG, "%s %s %s", __func__, key, value);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'esp_err_t nvs_set_blob(nvs_handle_t, const char*, const void*, size_t)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:420:5: note: in expansion of macro 'ESP_LOGD'
+  420 |     ESP_LOGD(TAG, "%s %s %d", __func__, key, static_cast<int>(length));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:420:5: note: in expansion of macro 'ESP_LOGD'
+  420 |     ESP_LOGD(TAG, "%s %s %d", __func__, key, static_cast<int>(length));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [31]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:420:5: note: in expansion of macro 'ESP_LOGD'
+  420 |     ESP_LOGD(TAG, "%s %s %d", __func__, key, static_cast<int>(length));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'esp_err_t nvs_get(nvs_handle_t, const char*, T*)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [32]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:434:5: note: in expansion of macro 'ESP_LOGD'
+  434 |     ESP_LOGD(TAG, "%s %s %ld", __func__, key, static_cast<long int>(sizeof(T)));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [32]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:434:5: note: in expansion of macro 'ESP_LOGD'
+  434 |     ESP_LOGD(TAG, "%s %s %ld", __func__, key, static_cast<long int>(sizeof(T)));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [32]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:434:5: note: in expansion of macro 'ESP_LOGD'
+  434 |     ESP_LOGD(TAG, "%s %s %ld", __func__, key, static_cast<long int>(sizeof(T)));
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp: In function 'esp_err_t nvs_get_str_or_blob(nvs_handle_t, nvs::ItemType, const char*, void*, size_t*)':
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [28]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:392:86: note: in expansion of macro 'LOG_FORMAT'
+  392 |         if (level==ESP_LOG_ERROR )          { esp_log_write(ESP_LOG_ERROR,      tag, LOG_FORMAT(E, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:486:5: note: in expansion of macro 'ESP_LOGD'
+  486 |     ESP_LOGD(TAG, "%s %s", __func__, key);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [28]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:393:86: note: in expansion of macro 'LOG_FORMAT'
+  393 |         else if (level==ESP_LOG_WARN )      { esp_log_write(ESP_LOG_WARN,       tag, LOG_FORMAT(W, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:486:5: note: in expansion of macro 'ESP_LOGD'
+  486 |     ESP_LOGD(TAG, "%s %s", __func__, key);
+      |     ^~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:282:111: error: unable to find string literal operator 'operator""COLOR' with 'const char [28]', 'unsigned int' arguments
+  282 | #define LOG_FORMAT(letter, format)  LOG_COLOR_ ## letter #letter " (%" PRIu32 ") %s: " format LOG_RESET_COLOR "\n"
+      |                                                                                                               ^~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:396:86: note: in expansion of macro 'LOG_FORMAT'
+  396 |         else                                { esp_log_write(ESP_LOG_INFO,       tag, LOG_FORMAT(I, format), esp_log_timestamp(), tag __VA_OPT__(,) __VA_ARGS__); } \
+      |                                                                                      ^~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:432:41: note: in expansion of macro 'ESP_LOG_LEVEL'
+  432 |         if ( LOG_LOCAL_LEVEL >= level ) ESP_LOG_LEVEL(level, tag, format, ##__VA_ARGS__); \
+      |                                         ^~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/log/include/esp_log.h:337:38: note: in expansion of macro 'ESP_LOG_LEVEL_LOCAL'
+  337 | #define ESP_LOGD( tag, format, ... ) ESP_LOG_LEVEL_LOCAL(ESP_LOG_DEBUG,   tag, format __VA_OPT__(,) __VA_ARGS__)
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/hazem/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp:486:5: note: in expansion of macro 'ESP_LOGD'
+  486 |     ESP_LOGD(TAG, "%s %s", __func__, key);
+      |     ^~~~~~~~
+[175/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa_main.c.obj
+[176/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_common.c.obj
+[177/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa3.c.obj
+[178/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wpa2.c.obj
+[179/418] Building C object esp-idf/wpa_supplicant/CMakeFiles/__idf_wpa_supplicant.dir/esp_supplicant/src/esp_wps.c.obj
+ninja: build stopped: subcommand failed.

@@ -245,8 +245,13 @@ esp_err_t can_drv_register_rx_isr(void (*rx_isr)(void)) {
         rx_isr_callback = rx_isr;
         return ESP_OK;
     } else {
+        rx_isr_callback = DefaultRXCAN_Hook;
         return ESP_ERR_INVALID_ARG;
     }
+}
+void DefaultRXCAN_Hook(void)
+{
+    
 }
 #endif
 

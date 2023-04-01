@@ -2,6 +2,13 @@
     "files.associations": {
         "can_drv.h": "c",
         "gpio.h": "c",
-        "functional": "c"
+        "functional": "c",
+        "freertos.h": "c",
+        "esp_system.h": "c",
+        "esp_err.h": "c",
+        "esp_idf_version.h": "c",
+        "esp_attr.h": "c",
+        "esp_bit_defs.h": "c",
+        "twai.h": "c"
     }
 }

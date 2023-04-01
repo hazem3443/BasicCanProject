@@ -1,30 +1,7 @@
-#include <inttypes.h>
-#include <string.h>
-
-#include "esp_err.h"
-#include "esp_log.h"
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-
-#include "can_drv/can_drv.h"
-#include "tim_drv/tim_drv.h"
-
-#define CAN_IDENTIFIER 0x5
-#define DATA_LENGTH 8
-#define DELAY_500_MS (500 / portTICK_PERIOD_MS)
-
-static const char *TAG = "CAN_APP";
-
-#define USE_RTOS_EXAMPLE
-#define num_of_cycle_per_ms 1000
-
-typedef enum{
-    TransmitState = 0,
-    WaitState,
-}Transmit_StateMachine;
+#include "ShiftEV_CanTask.h"
 
 void app_main(void) {
-    
+
     // Set up the message to send
     CANMessage rxMessage, txMessage = {
         .canId = CAN_IDENTIFIER,
@@ -38,7 +15,7 @@ void app_main(void) {
         return;
     }
 
-    #ifndef USE_RTOS_EXAMPLE
+    #ifdef USE_RTOS_EXAMPLE
     // Initialize the TWAI driver
     // Register a semaphore for RX notifications
     SemaphoreHandle_t rx_notification;
@@ -75,16 +52,21 @@ void app_main(void) {
     //register transmit function to send messages periodically from the queue
     init_can_transmit_timer();
 
+    //register CAN hook to be called upon reception
+    can_drv_register_rx_isr(RXCAN_Hook);
+    
     //check for received CAN message
     Transmit_StateMachine currentState; //initial state is TransmitState
     uint32_t msDelay;
 
     currentState = TransmitState;
     while (1) {
+
         bool success = CAN_rx(&(rxMessage.canId), rxMessage.canData, &(rxMessage.dataSize));
         if (success) {
             //isr hook called successfully removing elements from the queue
             ESP_LOGI(TAG, "Message received successfully");
+            continue;
         }
 
         switch (currentState)
@@ -105,10 +87,16 @@ void app_main(void) {
                 break;
             default:
                 ESP_LOGI(TAG, "error Occured");
+                currentState = TransmitState;
                 break;
         }
-
     }
-
+    //deinitialize the CAN
+    can_drv_deinit();
     #endif
+}
+
+void RXCAN_Hook(void)
+{
+    ESP_LOGW(TAG, "RXCAN_HOOK CALLED");
 }

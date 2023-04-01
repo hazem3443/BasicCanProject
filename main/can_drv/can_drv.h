@@ -8,7 +8,8 @@
 #define TX_QUEUE_SIZE 5
 #define RX_QUEUE_SIZE 10
 #define DLC 8
-// #define USE_FREERTOS
+
+#define USE_FREERTOS
 
 #ifdef USE_FREERTOS
 #include "freertos/FreeRTOS.h"
@@ -41,6 +42,7 @@ void init_can_transmit_timer(void);
 
 esp_err_t can_drv_register_rx_isr(void (*rx_isr)(void));
 
+void DefaultRXCAN_Hook(void);
 #endif
 
 #endif // CAN_DRV_H
