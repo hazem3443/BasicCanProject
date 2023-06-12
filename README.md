@@ -15,6 +15,14 @@ Alice->>Bob: Do you want to work on the project?
 Bob-->>Alice: Sure, let's do it
 ```
 
+```mermaid
+loop until PDU is sent
+RTE user->>COM: Send PDU
+COM-->>RTE user: PDU sent
+end
+```
+
+
 ```stl
 solid cube_corner
   facet normal 0.0 -1.0 0.0
